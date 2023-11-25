@@ -1,0 +1,189 @@
+{
+    "data":[
+       {
+          "title":"Question answering",
+          "paragraphs":[
+             {
+                "context":"SUBJECTIVE:, This 23-year-old white female presents with complaint of allergies. She used to have allergies when she lived in Seattle but she thinks they are worse here. In the past, she has tried Claritin, and Zyrtec. Both worked for short time but then seemed to lose effectiveness. She has used Allegra also. She used that last summer and she began using it again two weeks ago. It does not appear to be working very well. She has used over-the-counter sprays but no prescription nasal sprays. She does have asthma but doest not require daily medication for this and does not think it is flaring up.,MEDICATIONS: , Her only medication currently is Ortho Tri-Cyclen and the Allegra.,ALLERGIES: , She has no known medicine allergies.,OBJECTIVE:,Vitals: Weight was 130 pounds and blood pressure 124/78.,HEENT: Her throat was mildly erythematous without exudate. Nasal mucosa was erythematous and swollen. Only clear drainage was seen. TMs were clear.,Neck: Supple without adenopathy.,Lungs: Clear.,ASSESSMENT:, Allergic rhinitis.,PLAN:,1. She will try Zyrtec instead of Allegra again. Another option will be to use loratadine. She does not think she has prescription coverage so that might be cheaper.,2. Samples of Nasonex two sprays in each nostril given for three weeks. A prescription was written as well.",
+                "qas":[
+                   {
+                      "question":"How old is the patient?",
+                      "id":"e5576669-48d1-4d5b-bf3a-4048bd70624b",
+                      "answers":[
+                         {
+                            "answer_start":18,
+                            "text":"23"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"Does the patient have any complaints?",
+                      "id":"2a681390-1691-4ea7-a032-4d86d562c1e4",
+                      "answers":[
+                         {
+                            "answer_start":70,
+                            "text":"allergies"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"What is the reason for this consultation?",
+                      "id":"747635fe-5a87-4286-9e7d-6537dc8eb250",
+                      "answers":[
+                         {
+                            "answer_start":70,
+                            "text":"allergies"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"What other symptoms does the patient have?",
+                      "id":"df28f4cb-96b5-4e8e-9435-77b1784189bd",
+                      "answers":[
+                         {
+                            "answer_start":511,
+                            "text":"asthma"
+                         }
+                      ]
+                   }
+                ]
+             },
+             {
+                "context":"HISTORY OF PRESENT ILLNESS: , I have seen ABC today. He is a very pleasant gentleman who is 42 years old, 344 pounds. He is 5'9\". He has a BMI of 51. He has been overweight for ten years since the age of 33, at his highest he was 358 pounds, at his lowest 260. He is pursuing surgical attempts of weight loss to feel good, get healthy, and begin to exercise again. He wants to be able to exercise and play volleyball. Physically, he is sluggish. He gets tired quickly. He does not go out often. When he loses weight he always regains it and he gains back more than he lost. His biggest weight loss is 25 pounds and it was three months before he gained it back. He did six months of not drinking alcohol and not taking in many calories. He has been on multiple commercial weight loss programs including Slim Fast for one month one year ago and Atkin's Diet for one month two years ago.,PAST MEDICAL HISTORY: , He has difficulty climbing stairs, difficulty with airline seats, tying shoes, used to public seating, difficulty walking, high cholesterol, and high blood pressure. He has asthma and difficulty walking two blocks or going eight to ten steps. He has sleep apnea and snoring. He is a diabetic, on medication. He has joint pain, knee pain, back pain, foot and ankle pain, leg and foot swelling. He has hemorrhoids.,PAST SURGICAL HISTORY: , Includes orthopedic or knee surgery.,SOCIAL HISTORY: , He is currently single. He drinks alcohol ten to twelve drinks a week, but does not drink five days a week and then will binge drink. He smokes one and a half pack a day for 15 years, but he has recently stopped smoking for the past two weeks.,FAMILY HISTORY: , Obesity, heart disease, and diabetes. Family history is negative for hypertension and stroke.,CURRENT MEDICATIONS:, Include Diovan, Crestor, and Tricor.,MISCELLANEOUS/EATING HISTORY: ,He says a couple of friends of his have had heart attacks and have had died. He used to drink everyday, but stopped two years ago. He now only drinks on weekends. He is on his second week of Chantix, which is a medication to come off smoking completely. Eating, he eats bad food. He is single. He eats things like bacon, eggs, and cheese, cheeseburgers, fast food, eats four times a day, seven in the morning, at noon, 9 p.m., and 2 a.m. He currently weighs 344 pounds and 5'9\". His ideal body weight is 160 pounds. He is 184 pounds overweight. If he lost 70% of his excess body weight that would be 129 pounds and that would get him down to 215.,REVIEW OF SYSTEMS: , Negative for head, neck, heart, lungs, GI, GU, orthopedic, or skin. He also is positive for gout. He denies chest pain, heart attack, coronary artery disease, congestive heart failure, arrhythmia, atrial fibrillation, pacemaker, pulmonary embolism, or CVA. He denies venous insufficiency or thrombophlebitis. Denies shortness of breath, COPD, or emphysema. Denies thyroid problems, hip pain, osteoarthritis, rheumatoid arthritis, GERD, hiatal hernia, peptic ulcer disease, gallstones, infected gallbladder, pancreatitis, fatty liver, hepatitis, rectal bleeding, polyps, incontinence of stool, urinary stress incontinence, or cancer. He denies cellulitis, pseudotumor cerebri, meningitis, or encephalitis.,PHYSICAL EXAMINATION: ,He is alert and oriented x 3. Cranial nerves II-XII are intact. Neck is soft and supple. Lungs: He has positive wheezing bilaterally. Heart is regular rhythm and rate. His abdomen is soft. Extremities: He has 1+ pitting edema.,IMPRESSION/PLAN:, I have explained to him the risks and potential complications of laparoscopic gastric bypass in detail and these include bleeding, infection, deep venous thrombosis, pulmonary embolism, leakage from the gastrojejuno-anastomosis, jejunojejuno-anastomosis, and possible bowel obstruction among other potential complications. He understands. He wants to proceed with workup and evaluation for laparoscopic Roux-en-Y gastric bypass. He will need to get a letter of approval from Dr. XYZ. He will need to see a nutritionist and mental health worker. He will need an upper endoscopy by either Dr. XYZ. He will need to go to Dr. XYZ as he previously had a sleep study. We will need another sleep study. He will need H. pylori testing, thyroid function tests, LFTs, glycosylated hemoglobin, and fasting blood sugar. After this is performed, we will submit him for insurance approval.",
+                "qas":[
+                   {
+                      "question":"How old is the patient?",
+                      "id":"8da8f1ad-f1a8-43f3-bba6-95900d55f728",
+                      "answers":[
+                         {
+                            "answer_start":92,
+                            "text":"42"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"Does the patient have any complaints?",
+                      "id":"4edf9922-735d-44dd-8049-ebee158a4fa9",
+                      "answers":[
+                         {
+                            "answer_start":909,
+                            "text":"He has difficulty climbing stairs, difficulty with airline seats, tying shoes, used to public seating, difficulty walking, high cholesterol, and high blood pressure. He has asthma and difficulty walking two blocks or going eight to ten steps. He has sleep apnea and snoring. He is a diabetic, on medication. He has joint pain, knee pain, back pain, foot and ankle pain, leg and foot swelling. He has hemorrhoids."
+                         }
+                      ]
+                   },
+                   {
+                      "question":"What is the reason for this consultation?",
+                      "id":"1aadc90b-c94b-43e6-be18-409ef40eee09",
+                      "answers":[
+                         {
+                            "answer_start":1664,
+                            "text":"Obesity"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"What other symptoms does the patient have?",
+                      "id":"d62383df-143c-472f-b870-b1eb66336e4c",
+                      "answers":[
+                         {
+                            "answer_start":1664,
+                            "text":"Obesity, heart disease, and diabetes"
+                         }
+                      ]
+                   }
+                ]
+             },
+             {
+                "context":"HISTORY OF PRESENT ILLNESS:, The patient is a 17-year-old female, who presents to the emergency room with foreign body and airway compromise and was taken to the operating room. She was intubated and fishbone.,PAST MEDICAL HISTORY: , Significant for diabetes, hypertension, asthma, cholecystectomy, and total hysterectomy and cataract.,ALLERGIES: ,No known drug allergies.,CURRENT MEDICATIONS: , Prevacid, Humulin, Diprivan, Proventil, Unasyn, and Solu-Medrol.,FAMILY HISTORY: , Noncontributory.,SOCIAL HISTORY: , Negative for illicit drugs, alcohol, and tobacco.,PHYSICAL EXAMINATION: ,Please see the hospital chart.,LABORATORY DATA: , Please see the hospital chart.,HOSPITAL COURSE: , The patient was taken to the operating room by Dr. X who is covering for ENT and noted that she had airway compromise and a rather large fishbone noted and that was removed. The patient was intubated and it was felt that she should be observed to see if the airway would improve upon which she could be extubated. If not she would require tracheostomy. The patient was treated with IV antibiotics and ventilatory support and at the time of this dictation, she has recently been taken to the operating room where it was felt that the airway sufficient and she was extubated. She was doing well with good p.o.s, good airway, good voice, and desiring to be discharged home. So, the patient is being prepared for discharge at this point. We will have Dr. X evaluate her before she leaves to make sure I do not have any problem with her going home. Dr. Y feels she could be discharged today and will have her return to see him in a week.",
+                "qas":[
+                   {
+                      "question":"How old is the patient?",
+                      "id":"3291bfdb-cd77-417c-b17a-19351c964919",
+                      "answers":[
+                         {
+                            "answer_start":46,
+                            "text":"17"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"Does the patient have any complaints?",
+                      "id":"17216dc8-a83c-4e2f-8e17-f799d009d5d6",
+                      "answers":[
+                         {
+                            "answer_start":106,
+                            "text":"foreign body and airway compromise"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"What is the reason for this consultation?",
+                      "id":"6ba3699e-2a1c-455e-acb1-baa874c4a862",
+                      "answers":[
+                         {
+                            "answer_start":106,
+                            "text":"foreign body and airway compromise"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"What other symptoms does the patient have?",
+                      "id":"bcecafa3-d31b-4639-a2c0-450638f89f56",
+                      "answers":[
+                         {
+                            "answer_start":234,
+                            "text":"Significant for diabetes, hypertension, asthma, cholecystectomy, and total hysterectomy and cataract.,ALLERGIES"
+                         }
+                      ]
+                   }
+                ]
+             },
+             {
+                "context":"PROCEDURE: , Elective male sterilization via bilateral vasectomy.,PREOPERATIVE DIAGNOSIS: ,Fertile male with completed family.,POSTOPERATIVE DIAGNOSIS:, Fertile male with completed family.,MEDICATIONS: ,Anesthesia is local with conscious sedation.,COMPLICATIONS: , None.,BLOOD LOSS: , Minimal.,INDICATIONS: ,This 34-year-old gentleman has come to the office requesting sterilization via bilateral vasectomy. I discussed the indications and the need for procedure with the patient in detail, and he has given consent to proceed. He has been given prophylactic antibiotics.,PROCEDURE NOTE: , Once satisfactory sedation have been obtained, the patient was placed in the supine position on the operating table. Genitalia was shaved and then prepped with Betadine scrub and paint solution and were draped sterilely. The procedure itself was started by grasping the right vas deferens in the scrotum, and bringing it up to the level of the skin. The skin was infiltrated with 2% Xylocaine and punctured with a sharp hemostat to identify the vas beneath. The vas was brought out of the incision carefully. A 2-inch segment was isolated, and 1-inch segment was removed. The free ends were cauterized and were tied with 2-0 silk sutures in such a fashion that the ends double back on themselves. After securing hemostasis with a cautery, the ends were allowed to drop back into the incision, which was also cauterized.,Attention was now turned to the left side. The vas was grasped and brought up to the level of the skin. The skin was infiltrated with 2% Xylocaine and punctured with a sharp hemostat to identify the vas beneath. The vas was brought out of the incision carefully. A 2-inch segment was isolated, and 1-inch segment was removed. The free ends were cauterized and tied with 2-0 silk sutures in such a fashion that the ends double back on themselves. After securing hemostasis with the cautery, the ends were allowed to drop back into the incision, which was also cauterized.,Bacitracin ointment was applied as well as dry sterile dressing. The patient was awakened and was returned to Recovery in satisfactory condition.",
+                "qas":[
+                   {
+                      "question":"How old is the patient?",
+                      "id":"834e00d8-a9e0-4e5e-8874-14f21de4255b",
+                      "answers":[
+                         {
+                            "answer_start":313,
+                            "text":"34"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"Does the patient have any complaints?",
+                      "id":"76d64d17-c230-4925-a724-f8aec8fa9948",
+                      "answers":[
+                         {
+                            "answer_start":265,
+                            "text":"None"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"What is the reason for this consultation?",
+                      "id":"79e65e8f-7d42-4354-9cd3-726f961807d7",
+                      "answers":[
+                         {
+                            "answer_start":27,
+                            "text":"sterilization via bilateral vasectomy"
+                         }
+                      ]
+                   },
+                   {
+                      "question":"What other symptoms does the patient have?",
+                      "id":"725a06c8-d54d-448c-9c93-b8d7e18a122e",
+                      "answers":[
+                         {
+                            "answer_start":265,
+                            "text":"None"
+                         }
+                      ]
+                   }
+                ]
+             }
+          ]
+       }
+    ]
+ }
