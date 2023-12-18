@@ -11,7 +11,7 @@ def handle(event, context):
         return "Keeping Lambda warm"
 
     token_classifier = pipeline(
-        "token-classification", model='./model/xlm-roberta-large', aggregation_strategy="simple"
+        "token-classification", model='./NepNER/model/xlm-roberta-large', aggregation_strategy="simple"
     )
     results = token_classifier(text=event["text"])
     ret_val = {}
