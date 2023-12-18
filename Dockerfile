@@ -1,7 +1,7 @@
 ###########
 # BUILDER #
 ###########
-FROM public.ecr.aws/lambda/python:3.9 as builder
+FROM public.ecr.aws/lambda/python:3.10 as builder
 
 RUN pip3 install --upgrade pip
 
@@ -11,7 +11,7 @@ RUN  pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
 #########
 # FINAL #
 #########
-FROM public.ecr.aws/lambda/python:3.9
+FROM public.ecr.aws/lambda/python:3.10
 RUN pip3 install --upgrade pip
 
 COPY --from=builder ${LAMBDA_TASK_ROOT} ${LAMBDA_TASK_ROOT}
