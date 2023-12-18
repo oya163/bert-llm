@@ -4,3 +4,6 @@
 venv/
 
 model/
+
+node_modules/
+package-lock.json
