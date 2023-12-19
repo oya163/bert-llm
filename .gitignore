@@ -2,6 +2,7 @@
 *.zip
 *.pyc
 venv/
+.vscode/
 
 model/
 
